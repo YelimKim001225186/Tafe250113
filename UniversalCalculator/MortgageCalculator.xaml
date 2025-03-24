@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="Calculator.MortgageCalculator"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="464,20,0,0" FontSize="36" FontWeight="Bold" Grid.ColumnSpan="2">Mortgage Calculator</TextBlock>
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="471,104,0,0" FontSize="16" Grid.ColumnSpan="2">Principal borrow $:</TextBlock>
+        <TextBox x:Name="principalTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="146,99,0,0" Width="200" Text="" Grid.Column="1"/>
+
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="82,144,0,0" FontSize="16" RenderTransformOrigin="0.509,-0.94" Grid.Column="1">Years:</TextBlock>
+        <TextBox x:Name="yearsTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="146,138,0,0" Width="200" Text="" Grid.Column="1"/>
+
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="34,182,0,0" FontSize="16" Grid.Column="1">and Months:</TextBlock>
+        <TextBox x:Name="monthsTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="146,183,0,0" Width="200" Text="" Grid.Column="1"/>
+
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="471,234,0,0" FontSize="16" Grid.ColumnSpan="2">Yearly Interest Rate:</TextBlock>
+        <TextBox x:Name="yearlyIRTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="146,229,0,0" Width="200" Text="" Grid.Column="1"/>
+
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="453,285,0,0" FontSize="16" Grid.ColumnSpan="2">Monthly Interest Rate:</TextBlock>
+        <TextBox x:Name="monthlyIRTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="146,279,0,0" Width="200" Text="" Grid.Column="1"/>
+
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="449,334,0,0" FontSize="16" Grid.ColumnSpan="2">Monthly Repayment $:</TextBlock>
+        <TextBox x:Name="repaymentTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="146,329,0,0" Width="200" Text="" Grid.Column="1"/>
+
+        <Button Content="Calculate" VerticalAlignment="Top" Margin="102,409,0,0" Width="100" Height="50" Click="Button_Click" Grid.Column="1"/>
+        <Button Content="Exit" VerticalAlignment="Top" Margin="102,488,0,0" Width="100" Height="50" RenderTransformOrigin="0.484,0.977" Grid.Column="1"/>
+    </Grid>
+</Page>
