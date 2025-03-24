@@ -30,7 +30,11 @@ namespace Calculator
 			if (e.PrelaunchActivated == false)
 			{
 				if (rootFrame.Content == null)
+<<<<<<< HEAD
 					rootFrame.Navigate(typeof(MainMenu), e.Arguments);
+=======
+					rootFrame.Navigate(typeof(MortgageCalculator), e.Arguments);
+>>>>>>> MortgageCalculatorFeature
 
 				Window.Current.Activate();
 			}
