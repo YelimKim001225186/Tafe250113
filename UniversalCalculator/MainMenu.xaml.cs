@@ -26,5 +26,6 @@ namespace Calculator
         {
             this.InitializeComponent();
         }
+
     }
 }
