@@ -29,6 +29,6 @@
         <TextBox x:Name="repaymentTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="640,328,0,0" Width="200" Text=""/>
 
         <Button Content="Calculate" VerticalAlignment="Top" Margin="563,428,0,0" Width="100" Height="50" Click="Button_Click"/>
-        <Button Content="Exit" VerticalAlignment="Top" Margin="563,524,0,0" Width="100" Height="50" RenderTransformOrigin="0.484,0.977"/>
+        <Button Content="Exit" VerticalAlignment="Top" Margin="563,524,0,0" Width="100" Height="50" RenderTransformOrigin="0.484,0.977" Click="Button_Click_1"/>
     </Grid>
 </Page>
