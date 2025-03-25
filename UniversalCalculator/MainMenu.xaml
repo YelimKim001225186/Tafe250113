@@ -17,10 +17,10 @@
                    Margin="0,30,0,0"/>
 
 		<StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Spacing="15" Margin="0,100,0,0">
-			<Button Content="Math Calculator" Width="200" Height="40" />
-			<Button Content="Mortgage Calculator" Width="200" Height="40" />
-			<Button Content="Currency Calculator" Width="200" Height="40" />
-			<Button Content="Exit" Width="200" Height="40" />
+			<Button Name="mathCalcbutton" Content="Math Calculator" Width="200" Height="40"/>
+			<Button Name="mortgageCalcButton" Content="Mortgage Calculator" Width="200" Height="40"/>
+			<Button Name="currencyCalcButton" Content="Currency Calculator" Width="200" Height="40"/>
+			<Button Name="exitButton" Content="Exit" Width="200" Height="40"/>
 		</StackPanel>
         <Image Height="100" Width="100" Margin="806,-13,374,633" Source="/Assets/abacus.PNG"/>
         <StackPanel Margin="374,0,374,0"/>
