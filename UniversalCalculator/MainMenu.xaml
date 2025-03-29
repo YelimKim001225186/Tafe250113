@@ -20,6 +20,7 @@
 			<Button Name="mathCalcbutton" Content="Math Calculator" Width="200" Height="40" Click="mathCalcbutton_Click"/>
 			<Button Name="mortgageCalcButton" Content="Mortgage Calculator" Width="200" Height="40" Click="mortgageCalcButton_Click"/>
 			<Button Name="currencyCalcButton" Content="Currency Calculator" Width="200" Height="40" Click="currencyCalcButton_Click"/>
+			<Button Name="trioCalcButton" Content="Trip Calculator" Width="200" Height="40" Click="tripCalcButton_Click"/>
 			<Button Name="exitButton" Content="Exit" Width="200" Height="40" Click="exitButton_Click"/>
 		</StackPanel>
         <Image Height="100" Width="100" Margin="806,-13,374,633" Source="/Assets/abacus.PNG"/>
